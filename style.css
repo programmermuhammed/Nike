@@ -1,0 +1,248 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-image: url(images/whatsapp_image_2023-06-23_at_12.20.11.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.nav{
+    background-color: white;
+    box-shadow: 1px 1px 30px black;
+    width: 100%;
+    height: 10vh;
+}
+
+.nav button{
+    width: 180px;
+    height: 70px;
+    background-color: white;
+    border: 1px;
+    font-size: 20px;
+    border-radius: 50px;
+    margin-left: 10%;
+}
+
+.nav button:hover{
+    transform: scale(1.1,1.1);
+    transition: 1s;
+    cursor: pointer;
+    background-color: black;
+    opacity: 60%;
+    color: white;
+}
+
+#serv{
+    position: absolute;
+    margin-top: 67%;
+    margin-left: 46px;
+}
+
+#se-one{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(241, 241, 241);
+    margin-top: 14vh;
+    position: absolute;
+    margin-left: 50px;
+    box-shadow: 1px 1px 15px black;
+}
+
+#se-one:hover{
+    transform: scale(1.1,1.1);
+    transition: 1s;
+}
+
+#se-one img{
+    width: 200px;
+    height: 200px;
+    margin-left: 50px;
+}
+
+#se-one h1{
+    margin-left: 110px;
+}
+
+#se-one button{
+    width: 100%;
+    height: 50px;
+    border: 1px;
+}
+
+#se-one button:hover{
+    transform: scale(0.9,0.9);
+    transition: 1s;
+    cursor: pointer;
+    color: blue;
+}
+
+#se-two{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(241, 241, 241);
+    margin-top: 14vh;
+    position: absolute;
+    margin-left: 600px;
+    box-shadow: 1px 1px 30px black;
+}
+
+#se-two:hover{
+    transform: scale(1.1,1.1);
+    transition: 1s;
+}
+#se-two img{
+    width: 200px;
+    height: 200px;
+    margin-left: 50px;
+}
+
+#se-two h1{
+    margin-left: 110px;
+}
+
+#se-two button{
+    width: 100%;
+    height: 50px;
+    border: 1px;
+}
+
+#se-two button:hover{
+    transform: scale(0.9,0.9);
+    transition: 1s;
+    cursor: pointer;
+    color: blue;
+}
+
+
+#se-three{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(241, 241, 241);
+    margin-top: 14vh;
+    position: absolute;
+    margin-left: 1120px;
+    box-shadow: 1px 1px 15px black;
+}
+
+#se-three img{
+    width: 200px;
+    height: 200px;
+    margin-left: 50px;
+}
+
+#se-three h1{
+    margin-left: 70px;
+}
+
+#se-three button{
+    width: 100%;
+    height: 50px;
+    border: 1px;
+}
+
+#se-three button:hover{
+    transform: scale(0.9,0.9);
+    transition: 1s;
+    cursor: pointer;
+    color: blue;
+}
+
+#se-three:hover{
+    transform: scale(1.1,1.1);
+    transition: 1s;
+}
+
+#contact{
+    background-color: rgb(50, 50, 50);
+    width: 100%;
+    margin-top: 100%;
+    position: absolute;
+    color: white;
+    height: 400px;
+}
+
+#contact input,textarea{
+    width: 250px;
+    height: 30px;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    display: block;
+    margin-top: 40px;
+
+}
+
+footer{
+    background-color: silver;
+    height: 400px;
+    position: absolute;
+    margin-top: 2000px;
+    width: 100%;
+}
+
+footer a{
+    display: block;
+    margin-left: 90px;
+    margin-top: 50px;
+}
+
+.copyright{
+    margin-left: 40%;
+    margin-top: 80px;
+    position: absolute;
+    font-size: 18px;
+}
+
+@media (max-width:1150px) {
+    .nav{
+        width: 100%;
+    }
+    .nav button{
+        width: 60px;
+        font-size: 10px;
+        margin-top: 0px;
+    }
+}
+
+@media (max-width:1150px) {
+    
+    #serv{
+        display: flex;
+    }
+    
+    #se-one{
+        width: 300px;
+        margin-top: 80px;
+        margin-left: 50px;
+    }
+    .serv button{
+        width: 60px;
+        font-size: 10px;
+        margin-top: 90px;
+    }
+    #se-two{
+        width: 300px;
+        margin-top: 460px;
+        margin-left: 50px;
+    }
+    #se-three{
+        width: 300px;
+        margin-top: 854px;
+        margin-left: 50px;
+    }
+
+    #contact{
+        margin-top: 230vh;
+    }
+
+    footer{
+        margin-top: 300vh;
+    }
+
+    .copyright{
+        margin-left: 120px;
+    }
+}
